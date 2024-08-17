@@ -1,0 +1,143 @@
+* {
+    font-family: sans-serif;
+}
+
+.app_title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.app_title > h2 {
+    margin-right: 10px;
+}
+
+.main_container {
+    padding: 5rem 4rem 1rem 4rem;
+}
+
+.file-name-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+#editor__content {
+    padding: 1.7rem 1rem 1.5rem 1rem;
+    font-family: sans-serif;
+    font-size: 1.3rem;
+    min-height: 40rem;
+    width: 65%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    /* border: 0.2px solid grey; */
+}
+
+.editor__container {
+}
+
+.color__picker {
+    border: none;
+    height: 35px;
+    background: none;
+    width: 34px;
+}
+
+.control_buttons__container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2.9rem;
+}
+
+.image_container {
+    margin-left: 1rem;
+    padding-top: 7px;
+}
+
+.image {
+    width: 26px;
+    height: 26px;
+}
+
+.btn {
+    background-color: #FFFFFF;
+    border: 0;
+    border-radius: .5rem;
+    box-sizing: border-box;
+    color: #111827;
+    font-size: .875rem;
+    font-weight: 600;
+    line-height: 1.25rem;
+    padding: .75rem 1rem;
+    text-align: center;
+    text-decoration: none #D1D5DB solid;
+    text-decoration-thickness: auto;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin-right: 1rem;
+}
+
+
+.btn:hover {
+    background-color: rgb(249, 250, 251);
+}
+
+.btn:focus {
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+}
+
+.btn:focus-visible {
+    box-shadow: none;
+}
+
+.file_save_select {
+    appearance: none;
+    margin-left: 1rem;
+    padding: .75rem 10px;
+    border: none;
+    outline: none;
+}
+
+.filename_title {
+    margin-bottom: 3px;
+    font-size: 19px;
+    color: grey;
+    font-weight: 600;
+    border: none;
+    padding: 4px;
+}
+
+
+
+.download-select-container {
+    position: relative;
+    display: inline-block;
+}
+
+
+.download-options-list {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 119px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+.download-option {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.download-option:hover {
+    background-color: #f0f0f0;
+}
+
+.hidden {
+    display: none;
+}
